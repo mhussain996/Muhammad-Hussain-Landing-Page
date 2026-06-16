@@ -232,24 +232,36 @@ footer {
 
 }
 
-@media (max-width: 586px) {
+footer span {
+        background-color: yellow;
+        color: black;
+        font-weight: 800;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+@media (max-width: 769px) {
 
     .hero_section {
 
-        min-height: 50vh;
+        min-height: 80vh;
 
     }
 
     .text_container {
 
-        padding: 10px 0;
+        padding: 60px 0;
         text-align: center;
 
     }
 
+    h2 {
+        font-size: 38px;
+    }
+
     .lg_text {
         
-        font-size: 32px;
+        font-size: 48px;
         
     }
 
@@ -285,13 +297,138 @@ footer {
 
     }
 
-    .navbar {
-
-        display: flex;
-        max-width: 400px;
-        font-size: 16px;
-
+    #contact {
+        width: 100%;
     }
 
+    #about {
+        width: 100%;
+    }
+
+    footer span {
+        background-color: yellow;
+        color: black;
+        font-weight: 800;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .navbar nav {
+        justify-content: space-around;
+        min-width: 300px;
+        width: 400px;
+        max-width: 410px;
+        gap: 0px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .lg_text {
+        font-size: 32px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    footer span {
+        background-color: yellow;
+        color: black;
+        font-weight: 800;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media (max-width:376px) {
+
+    .navbar nav {
+        display: flex;
+        justify-content: space-around;
+        min-width: 300px;
+        width: 350px;
+        max-width: 360px;
+        gap: 0px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .lg_text {
+        font-size: 26px;
+    }
+
+    #contact,
+    #about {
+        width: 100%;
+        min-height: 300px;
+        padding: 32px;
+        color: white;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    footer span {
+        background-color: yellow;
+        color: black;
+        font-weight: 800;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media (max-width:321px) {
+    .navbar nav {
+        justify-content: space-between;
+        display: flex;
+        min-width: 200px;
+        max-width: 280px;
+        gap: 30px;
+    }
+
+    .navbar a {
+        font-size: 8px;
+    }
+
+    #contact,
+    #about {
+
+        width: 100%;
+        min-height: 300px;
+        padding: 32px;
+        color: white;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .lg_text {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    footer span {
+        background-color: yellow;
+        color: black;
+        font-weight: 800;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
 
